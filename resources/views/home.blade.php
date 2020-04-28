@@ -6,7 +6,8 @@
 <!-- NavBar1-->
 <nav class="nav" id="nav1">
   <h6 class="nav-link">Bem vindo</h6>
-  <a class="nav-link" href="#" id="top"><i class="fas fa-user-plus fa-1x"></i>criar conta</a>
+  <a class="nav-link" href="#" id="top"><i class="fas fa-user-plus fa-1x"></i>Criar conta</a>
+  <label for="">ou</label>
   <a class="nav-link" href="#" id="top"><i class="fas fa-user"></i>Entrar</a>
 </nav>
 
@@ -93,16 +94,49 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-
-
+<!--Produto-->
+    <div class="text-center">
+    <label class="lbl_produto">Destaques</label>
+    </div>
+    <div class="card-group">
+  <div class="card text-center">
+    <img class="card-img-top" src="../img/img5.png" alt="Card image cap">
+    <div class="card-body">
+      <hr>
+      <h5 class="card-title">Sapatilha</h5>
+      <p class="card-text">3500,00MZM</p>
+      <a href="#" class="btn btn-primary">Adicionar ao <i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </div>
+  <div class="card text-center">
+    <img class="card-img-top" src="../img/img4.png" alt="Card image cap">
+    <div class="card-body">
+      <hr>
+      <h5 class="card-title">Laptop</h5>
+      <p class="card-text">80 000,00MZM</p>
+      <a href="#" class="btn btn-primary">Adicionar ao <i class="fas fa-shopping-cart"></i></a>
+      
+    </div>
+  </div>
+  <div class="card text-center">
+    <img class="card-img-top" src="../img/img5.png" alt="Card image cap">
+    <div class="card-body">
+      <hr>
+      <h5 class="card-title">Sapatilha</h5>
+      <p class="card-text">3500,00MZM</p>
+      <a href="#" class="btn btn-primary">Adicionar ao <i class="fas fa-shopping-cart"></i></a>
+    </div>
+  </div>
+</div>
 @endsection
+
 
 
 @section('rodape')
 
       </div>
       <nav class="navbar navbar-expand-md navbar-dark fixed-bottom" id="rodape">
-          <h6 id="header1">Othuma &copy;2020. Todos direitos reservados</h6>
+          <h6 id="header1">Othuma &copy; 2020. Todos direitos reservados</h6>
 
 </nav>
 @endsection
