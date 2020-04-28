@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+*{
+    font-family:'Roboto', sans-serif;   
+}
+body{
+    background-color: #f5f5f5;
+}
+.fas{
+    color:#ff6633;
+}
+#top{
+    color: black;
+}
+#nav1{
+    background-color: #e8e8e8;
+   height: 28px;
+}
+.logo{
+width: 180px;
+}
+#search1{
+   
+   width: 500px; 
+   border-radius: 15px;  
+   
+}
+.menu1{
+    background-color: white;
+}
+#fa1{
+    color: white;
+}
+#bt_search1{
+    background-color: #ff6633;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+    margin-left: 448px;
+    width: 50px;
+}
+#menu2, #rodape{
+    background-color: #ff6633;
+}
+#a1{
+    color: black;
+}
+#a2, #navbarDropdownMenuLink{
+    color: white;
+    font-size: 15px;
+}
+.dropdown-menu{
+    background-color: #ff6633;
+    border:1px 1px 1px 1px solid;
+    border-color: black;
+}
+.dropdown-item{
+    color: white;
+}
+.carousel-caption{
+    color: black;
+}
+.carousel-item{
+width: 100%;
+height:400px;
+}
+#header1{
+ position: absolute;
+text-align: center;
+color: white;
+margin-left: 30%;
+}
+#bt_slide1{
+       width: 150px;
+   height: 50px;
+   border:1px solid;
+}
+
+#bt_slide1:hover{
+   background-color: #ff6633;
+   color: white;
+   width: 150px;
+   height: 50px;
+   border:1px solid;
+   border-radius: 10px;
+}
