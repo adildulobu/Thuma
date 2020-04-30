@@ -118,3 +118,32 @@ hr{
 .card{
     margin-right: 8px;
 }
+#btn-pri{
+    border:none;
+    color: #fff;
+    background-color: #ff6633;
+}
+.newsletter .content .form-control {
+border-radius: 6px;
+}   
+.lbl-new{
+    font-size: 20px;
+    padding-right: 8px;
+}
+footer{
+    background-color: rgb(235, 233, 233); 
+}
+.footer-copyright{
+    background-color: #ff6633;
+    color: #fff;
+}
+.text-uppercase{
+    color: #ff6633;
+}
+.newsletter{
+    border-bottom: 1px solid #f8f8f8;
+    margin-left: -155px;
+}
+#divisao{
+    border-right: 1px solid #ff6633;
+}

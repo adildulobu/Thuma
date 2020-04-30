@@ -130,13 +130,70 @@
 </div>
 @endsection
 
-
-
 @section('rodape')
 
-      </div>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-bottom" id="rodape">
-          <h6 id="header1">Othuma &copy; 2020. Todos direitos reservados</h6>
+<footer class="page-footer font-small indigo">
+<section class="newsletter">
+<div class="container">
+<div class="row">
+<div class="col-sm-12 pt-3 mb-3">
+	<div class="content">
+	<div class="input-group">
+          <label class="lbl-new">NewsLetter</label>
+         <input type="email" class="form-control" id="inp-em" placeholder="Seu endereço de e-mail...">
+         <span class="input-group-btn">
+         <button class="btn btn-primary" type="submit" id="btn-pri">Subscrever</button>
+         </span>
+          </div>
+	</div>
+</div>
+</div>
+</div>
+</section>
 
-</nav>
+<div class="container">
+  <div class="row text-left d-flex justify-content-right pt-3 mb-3">
+    <div class="col-md-4 mb-6" id="divisao">
+      <h6 class="text-uppercase font-weight-bold">
+        contactos
+      </h6>
+      <p>
+      <i class="fas fa-map-marker-alt"></i>Av. Eduardo Mondlane
+      </p>
+      <p>
+      <i class="fas fa-envelope-square"></i>suporte@othuma.com
+      </p>
+      <p>
+        <i class="fas fa-phone-alt"></i> +258840000000
+      </p>
+    </div>
+    
+    <div class="col-md-4 mb-6" id="divisao">
+      <h6 class="text-uppercase font-weight-bold">
+        informação
+      </h6>
+      <p>
+        Sobre Othuma
+      </p>
+      <p>
+        Zona de entrega
+      </p>
+    </div>
+  
+    <div class="col-md-4 mb-6">
+      <h6 class="text-uppercase font-weight-bold">
+        métodos de pagamento
+      </h6>
+      <p>
+        <img src="../img/mpesa.png" alt="mpesa" >
+        <img src="../img/mkesh.png" alt="mkesh" >
+        <img src="../img/bci.png" alt="bci" >
+      </p>
+    </div>
+    
+</div>
+</div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Othuma MZ
+  </div>
+  </footer>
 @endsection

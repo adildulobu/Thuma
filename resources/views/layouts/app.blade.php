@@ -14,6 +14,7 @@
 <body>
 @yield('navegacao')
 @yield('conteudo')
+<!--@yield('contacte-nos')-->
 @yield('rodape')
 
 </body>
