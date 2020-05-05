@@ -19,3 +19,10 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
+
+Route::get('/add_cliente', function () {
+    return view('add_cliente');
+});
+Route::get('/login', function () {
+    return view('login');
+});

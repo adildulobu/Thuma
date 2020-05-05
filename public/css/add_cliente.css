@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+*{
+    font-family:'Roboto', sans-serif;
+}
+body{
+    background-color: #fff;
+}
+
+
+.container{
+    box-shadow: 0 3px 5px 0 #E8E8E8, 0 2px 15px 0 #E8E8E8;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 500px;
+    background-color: #fff;
+    height: auto;
+}
+
+.desc{
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: 10px;
+}
+.background1{
+    background-color: white;
+}
+#btn-primary_student{
+    position: relative;
+    left:12px;
+    width: 450px;
+    padding: 1px 0px 6px 2px;
+    border-radius: 15px;
+    background-color: #ff6633;
+    top: -8px;
+    height: 45px;
+
+}
+
+#student_icon{
+    position: relative;
+    left: 20px;
+    margin-top: -40px;
+    margin-bottom: 15px;
+}
+#label2{
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+#label2::after {
+    content: "*";
+    color: red;
+}
+.form-check-label{
+    font-size: 12px;
+}
+.underlineHover{
+    color: red;
+}
+
